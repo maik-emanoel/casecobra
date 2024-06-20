@@ -34,7 +34,8 @@ export function Phone({
         <Image
           src={imgSrc}
           alt="Overlaying phone image"
-          className="object-cover"
+          className="min-h-full min-w-full object-cover"
+          fill
         />
       </div>
     </div>
